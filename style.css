@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+}
+
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 0 19%;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.right {
+    position: absolute;
+    right: 19%;
+}
+
+.btn {
+    background-color: rgb(67, 166, 253);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 16px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.link {
+    color: rgb(67, 166, 253);
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+#posts {
+    display: flex;
+    justify-content: center;
+}
+
+#allposts {
+    width: 40%;
+}
+
+.avaImg {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.ava {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.accountName {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.postImg {
+    width: 100%;
+}
+
+.post {
+    border: 1px solid rgb(206, 206, 206);
+    margin-top: 60px;
+    margin-bottom: 60px;
+    border-radius: 15px;
+}
+
+.postImgBox {
+    height: 500px;
+    overflow-y: hidden;
+}
+
+.postText {
+    padding: 30px;
+    font-size: 30px;
+}
+
+.likesBox {
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    padding: 30px 0 0 30px;
+}
+
+.likeButton {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
